@@ -26,8 +26,7 @@ def task_manager():
         print("3. Remove Task")
         print("4. Exit")
         choice = int(input("Enter your choice (1-4): "))
-        if choice != 4:
-            cont = True
+        cont = True
         while cont:
             if choice == 1:
                 task_name = input("Enter task name: ")
